@@ -1,0 +1,84 @@
+/* style.css - Global Design */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    padding: 30px;
+    margin: 0;
+}
+
+h2 {
+    color: #c0392b;
+    border-bottom: 3px solid #e74c3c;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: #2980b9;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+a:hover { color: #c0392b; }
+
+/* Form Design */
+form {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    max-width: 400px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 15px;
+    transition: background 0.3s;
+}
+
+button:hover { background-color: #c0392b; }
+
+/* Table Design */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+th {
+    background-color: #c0392b;
+    color: white;
+    padding: 15px;
+    text-align: left;
+}
+
+td { padding: 15px; border-bottom: 1px solid #eee; }
+tr:hover { background-color: #fef9f9; }
+
+/* Card Hover Effect */
+.card { transition: transform 0.3s; }
+.card:hover { transform: translateY(-5px); box-shadow: 0 8px 20px rgba(0,0,0,0.15); }
